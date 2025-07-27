@@ -32,11 +32,3 @@ class UCB(BaseMABAlgorithm):
         
         # YOUR CODE HERE
         pass
-        
-        # SOLUTION (commented out for students):
-        # unpulled_arms = np.where(self.pulls == 0)[0]
-        # if len(unpulled_arms) > 0:
-        #     return unpulled_arms[0]
-        # total_pulls = np.sum(self.pulls)
-        # ucb_values = self.estimates + self.c * np.sqrt(np.log(total_pulls) / self.pulls)
-        # return np.argmax(ucb_values) 
